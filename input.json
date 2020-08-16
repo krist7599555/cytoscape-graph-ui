@@ -1,0 +1,87 @@
+[
+  {
+    "path": "/m1",
+    "message": "ข้อความเด้งกลับ",
+    "type": "text",
+    "timeout": 100,
+    "redirect": "/m2",
+    "position": {
+      "x": 100,
+      "y": 100
+    }
+  },
+  {
+    "path": "/m2",
+    "message": "โตขึ้นเยอะเลยนะ",
+    "type": "text",
+    "timeout": 100,
+    "redirect": "/m3",
+    "position": {
+      "x": 191,
+      "y": 147
+    }
+  },
+  {
+    "path": "/m3",
+    "message": "เก่งมากเลยที่พยายามแล้วโตมาได้ขนาดนี้",
+    "type": "text",
+    "timeout": 100,
+    "redirect": "/m4",
+    "position": {
+      "x": 260,
+      "y": 198
+    }
+  },
+  {
+    "path": "/m4",
+    "message": "การโตขึ้นมันเหนื่อยมั้ย{{GENDER}}",
+    "type": "choice",
+    "position": {
+      "x": 309,
+      "y": 270
+    },
+    "choice": [
+      {
+        "message": "เหนื่อย",
+        "redirect": "/m5"
+      },
+      {
+        "message": "ไม่เหนื่อย",
+        "redirect": "/n1"
+      }
+    ]
+  },
+  {
+    "path": "/m5",
+    "message": "xxx",
+    "type": "text",
+    "timeout": 100,
+    "redirect": "/m6",
+    "position": {
+      "x": 84,
+      "y": 288
+    }
+  },
+  {
+    "path": "/m6",
+    "message": "xxx yyy",
+    "type": "text",
+    "timeout": 100,
+    "redirect": "/n1",
+    "position": {
+      "x": 207,
+      "y": 402
+    }
+  },
+  {
+    "path": "/n1",
+    "message": "xxx zzz zzz",
+    "type": "text",
+    "timeout": 100,
+    "redirect": null,
+    "position": {
+      "x": 335,
+      "y": 440
+    }
+  }
+]
