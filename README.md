@@ -2,5 +2,5 @@
 
 __lib:__ [https://js.cytoscape.org](https://js.cytoscape.org)
 
-![](1.png)
-![](2.png)
+![](screenshot/1.png)
+![](screenshot/2.png)

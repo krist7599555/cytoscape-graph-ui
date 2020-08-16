@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html --public-url /cytoscape-graph-ui -d docs"
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /cytoscape-graph-ui -d docs"
   },
   "dependencies": {
     "@types/cytoscape": "^3.14.7",
